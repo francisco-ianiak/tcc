@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+footer {
+    background-color: #591902;
+    color: white;
+    height: 225px;
+    font-size: 21px;
+    font-family: "Poppins", serif;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0
+}
+
+footer .imgrodape {
+    width: 40px;
+    height: 40px;
+}
+
+footer p{
+    padding: 10px;
+}
+
+
+footer #contatos{
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+footer #contatos #acima {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer #contatos #acima img{
+    width: 52px;
+    height: 52px;
+}
+
+footer #contatos #abaixo {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer #ajuda nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+footer #ajuda nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+footer #ajuda nav ul li a:hover{
+    color: rgb(0, 255, 0);
+}
+
+footer #direitos {
+    text-align: center;
+    align-self: end;
+}
